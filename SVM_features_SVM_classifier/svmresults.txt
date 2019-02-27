@@ -1,0 +1,30 @@
+mr6564@mr6564:~/Desktop/WF/CodesandData/dataandcodes$ python cumul-feature.py
+
+
+mr6564@mr6564:~/Desktop/WF/CodesandData/dataandcodes$ cd libsvm-3.20-src
+
+
+
+mr6564@mr6564:~/Desktop/WF/CodesandData/dataandcodes/libsvm-3.20-src$ make
+
+
+g++ -Wall -Wconversion -O3 -fPIC -c svm.cpp
+
+g++ -Wall -Wconversion -O3 -fPIC svm-train.c svm.o -o svm-train -lm
+
+g++ -Wall -Wconversion -O3 -fPIC svm-train-q.c svm.o -o svm-train-q -lm
+
+g++ -Wall -Wconversion -O3 -fPIC svm-predict.c svm.o -o svm-predict -lm
+
+g++ -Wall -Wconversion -O3 -fPIC svm-scale.c -o svm-scale
+
+
+
+mr6564@mr6564:~/Desktop/WF/CodesandData/dataandcodes/libsvm-3.20-src/tools$ python easy.py /home/mr6564/Desktop/WF/CodesandData/cumul/cumul.testfeat
+
+
+Scaling training data...
+Cross validation...
+Best c=2048.0, g=2.0 CV rate=90.5889
+Training...
+Output model: cumul.testfeat.model
