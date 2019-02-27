@@ -1,0 +1,40 @@
+mr6564@mr6564:~/Desktop/WF/experiment/svm-knn$ python svm-knn.py
+
+105
+
+mr6564@mr6564:~/Desktop/WF/experiment/svm-knn$ g++ flearner.cpp -o svmtest.o
+
+
+mr6564@mr6564:~/Desktop/WF/experiment/svm-knn$ ./svmtest.o
+
+
+Learning distance... 1199 (0-1200)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-0, accuracy: 0.857333 1.000000, best accuracy: 0.857333
+
+Learning distance... 2399 (1200-2400)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-1, accuracy: 0.862333 1.000000, best accuracy: 0.862333
+
+Learning distance... 3599 (2400-3600)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-2, accuracy: 0.866000 1.000000, best accuracy: 0.866000
+
+Learning distance... 4799 (3600-4800)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-3, accuracy: 0.866333 1.000000, best accuracy: 0.866333
+
+Learning distance... 5999 (4800-6000)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-4, accuracy: 0.864333 1.000000, best accuracy: 0.866333
+
