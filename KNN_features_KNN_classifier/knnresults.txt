@@ -1,0 +1,38 @@
+mr6564@mr6564:~/Desktop/WF/knn$ python fextractor.py
+
+735
+
+mr6564@saidur:~/Desktop/WebsiteFingerprinting/knn$ g++ flearner.cpp -o knntest.o
+
+
+mr6564@saidur:~/Desktop/WebsiteFingerprinting/knn$ ./knntest.o
+
+Learning distance... 1199 (0-1200)
+
+Computing accuracy... 2999 (0-3000)
+Round 0-0, accuracy: 0.909000 1.000000, best accuracy: 0.909000
+
+Learning distance... 2399 (1200-2400)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-1, accuracy: 0.898000 1.000000, best accuracy: 0.909000
+
+Learning distance... 3599 (2400-3600)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-2, accuracy: 0.906667 1.000000, best accuracy: 0.909000
+
+Learning distance... 4799 (3600-4800)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-3, accuracy: 0.904667 1.000000, best accuracy: 0.909000
+
+Learning distance... 5999 (4800-6000)
+
+Computing accuracy... 2999 (0-3000)
+
+Round 0-4, accuracy: 0.903667 1.000000, best accuracy: 0.909000
+
